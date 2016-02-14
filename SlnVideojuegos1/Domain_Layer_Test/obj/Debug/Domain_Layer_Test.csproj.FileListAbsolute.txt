@@ -1,0 +1,56 @@
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.abstractions.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.runner.utility.desktop.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.dll.config
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.SqlServer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\NSubstitute.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Entity_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.SqlServer.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\NSubstitute.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Entity_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.csprojResolveAssemblyReference.cache
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.abstractions.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.runner.utility.desktop.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.dll.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer_Test.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.SqlServer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\NSubstitute.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Entity_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Domain_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\EntityFramework.SqlServer.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\NSubstitute.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.assert.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.core.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\xunit.execution.desktop.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\bin\Debug\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.csprojResolveAssemblyReference.cache
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer_Test\obj\Debug\Domain_Layer_Test.pdb

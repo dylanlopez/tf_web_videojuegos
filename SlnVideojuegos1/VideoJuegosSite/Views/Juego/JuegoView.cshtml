@@ -1,0 +1,84 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="Absolute-Center is-Responsive">
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+                <h3 style="width:700px">JUEGO</h3>
+                <table class="table" style="width:700px">
+                    <tbody>
+                        <tr>
+                            <td>Id</td>
+                            <td><input type="text" data-ng-model="dto.Id" /></td>
+                        </tr>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" required data-ng-model="dto.Nombre" /></td>
+                        </tr>
+                        <tr>
+                            <td>Año</td>
+                            <td><input type="number" min="1980" max="2050" required data-ng-model="dto.Anho" /></td>
+                        </tr>
+                        <tr>
+                            <td>Fecha de Lanzamiento</td>
+                            <td><input type="date" required data-ng-model="dto.FechaLanzamiento" /></td>
+                        </tr>
+                        <tr>
+                            <td>Estudio</td>
+                            <td><input type="text" required data-ng-model="dto.Estudio" /></td>
+                        </tr>
+                        <tr>
+                            <td>Precio</td>
+                            <td><input type="number" min="1" max="999999" required data-ng-model="dto.Precio" /></td>
+                        </tr>
+                        <tr>
+                            <td>Tags</td>
+                            <td><input type="text" data-ng-model="dto.Tags" /></td>
+                        </tr>
+                        <tr>
+                            <td>Descripcion</td>
+                            <td><input type="text" data-ng-model="dto.Descripcion" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" data-ng-click="save()" value="Nuevo" />
+                                &nbsp;&nbsp;
+                                <input type="button" data-ng-click="update()" value="Modificar" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div style="text-align:center; width:800px">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Año</th>
+                                <th>Fecha de Lanzamiento</th>
+                                <th>Estudio</th>
+                                <th>Precio</th>
+                                <th>Tags</th>
+                                <th>Descripcion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in juelist">
+                                <td> {{item.Id}} </td>
+                                <td> {{item.Nombre}} </td>
+                                <td> {{item.Anho}} </td>
+                                <td> {{item.FechaLanzamiento}} </td>
+                                <td> {{item.Estudio}} </td>
+                                <td> {{item.Precio}} </td>
+                                <td> {{item.Tags}} </td>
+                                <td> {{item.Descripcion}} </td>
+                                <td><input type="button" data-ng-click="edit(item)" value="Modificar" /></td>
+                                <td><input type="button" data-ng-click="delete(item)" value="Eliminar" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

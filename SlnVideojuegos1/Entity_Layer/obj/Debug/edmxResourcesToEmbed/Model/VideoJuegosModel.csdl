@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_VIDEOJUEGOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DB_VIDEOJUEGOS" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="GENERO" EntityType="DB_VIDEOJUEGOSModel.GENERO" />
+    <EntitySet Name="JUEGO" EntityType="DB_VIDEOJUEGOSModel.JUEGO" />
+    <EntitySet Name="JUEGO_GENERO" EntityType="DB_VIDEOJUEGOSModel.JUEGO_GENERO" />
+    <EntitySet Name="PACK" EntityType="DB_VIDEOJUEGOSModel.PACK" />
+    <EntitySet Name="PACK_DETALLE" EntityType="DB_VIDEOJUEGOSModel.PACK_DETALLE" />
+    <EntitySet Name="USUARIO" EntityType="DB_VIDEOJUEGOSModel.USUARIO" />
+    <AssociationSet Name="FK_JUEGO_GENERO_GENERO" Association="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_GENERO">
+      <End Role="GENERO" EntitySet="GENERO" />
+      <End Role="JUEGO_GENERO" EntitySet="JUEGO_GENERO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JUEGO_GENERO_JUEGO" Association="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_JUEGO">
+      <End Role="JUEGO" EntitySet="JUEGO" />
+      <End Role="JUEGO_GENERO" EntitySet="JUEGO_GENERO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PACK_DETALLE_JUEGO" Association="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_JUEGO">
+      <End Role="JUEGO" EntitySet="JUEGO" />
+      <End Role="PACK_DETALLE" EntitySet="PACK_DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PACK_DETALLE_PACK" Association="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_PACK">
+      <End Role="PACK" EntitySet="PACK" />
+      <End Role="PACK_DETALLE" EntitySet="PACK_DETALLE" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="GENERO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="JUEGO_GENERO" Relationship="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_GENERO" FromRole="GENERO" ToRole="JUEGO_GENERO" />
+  </EntityType>
+  <EntityType Name="JUEGO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ANHO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_LANZAMIENTO" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ESTUDIO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PRECIO" Type="Decimal" Nullable="false" Precision="9" Scale="2" />
+    <Property Name="TAGS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="JUEGO_GENERO" Relationship="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_JUEGO" FromRole="JUEGO" ToRole="JUEGO_GENERO" />
+    <NavigationProperty Name="PACK_DETALLE" Relationship="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_JUEGO" FromRole="JUEGO" ToRole="PACK_DETALLE" />
+  </EntityType>
+  <EntityType Name="JUEGO_GENERO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_JUEGO" Type="Int32" Nullable="false" />
+    <Property Name="ID_GENERO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GENERO" Relationship="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_GENERO" FromRole="JUEGO_GENERO" ToRole="GENERO" />
+    <NavigationProperty Name="JUEGO" Relationship="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_JUEGO" FromRole="JUEGO_GENERO" ToRole="JUEGO" />
+  </EntityType>
+  <EntityType Name="PACK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PRECIO" Type="Decimal" Nullable="false" Precision="9" Scale="2" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PACK_DETALLE" Relationship="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_PACK" FromRole="PACK" ToRole="PACK_DETALLE" />
+  </EntityType>
+  <EntityType Name="PACK_DETALLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_PACK" Type="Int32" Nullable="false" />
+    <Property Name="ID_JUEGO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="JUEGO" Relationship="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_JUEGO" FromRole="PACK_DETALLE" ToRole="JUEGO" />
+    <NavigationProperty Name="PACK" Relationship="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_PACK" FromRole="PACK_DETALLE" ToRole="PACK" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USERNAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVO" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_JUEGO_GENERO_GENERO">
+    <End Type="DB_VIDEOJUEGOSModel.GENERO" Role="GENERO" Multiplicity="1" />
+    <End Type="DB_VIDEOJUEGOSModel.JUEGO_GENERO" Role="JUEGO_GENERO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GENERO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="JUEGO_GENERO">
+        <PropertyRef Name="ID_GENERO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JUEGO_GENERO_JUEGO">
+    <End Type="DB_VIDEOJUEGOSModel.JUEGO" Role="JUEGO" Multiplicity="1" />
+    <End Type="DB_VIDEOJUEGOSModel.JUEGO_GENERO" Role="JUEGO_GENERO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JUEGO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="JUEGO_GENERO">
+        <PropertyRef Name="ID_JUEGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PACK_DETALLE_JUEGO">
+    <End Type="DB_VIDEOJUEGOSModel.JUEGO" Role="JUEGO" Multiplicity="1" />
+    <End Type="DB_VIDEOJUEGOSModel.PACK_DETALLE" Role="PACK_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JUEGO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PACK_DETALLE">
+        <PropertyRef Name="ID_JUEGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PACK_DETALLE_PACK">
+    <End Type="DB_VIDEOJUEGOSModel.PACK" Role="PACK" Multiplicity="1" />
+    <End Type="DB_VIDEOJUEGOSModel.PACK_DETALLE" Role="PACK_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PACK">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PACK_DETALLE">
+        <PropertyRef Name="ID_PACK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,24 @@
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.dll.config
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.SqlServer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Entity_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Entity_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.SqlServer.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.csprojResolveAssemblyReference.cache
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.dll.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Domain_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.SqlServer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Entity_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\bin\Debug\EntityFramework.SqlServer.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.csprojResolveAssemblyReference.cache
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Domain_Layer\obj\Debug\Domain_Layer.pdb

@@ -1,0 +1,15 @@
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.dll.config
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\EntityFramework.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\EntityFramework.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\obj\Debug\Entity_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\obj\Debug\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.dll.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\EntityFramework.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\bin\Debug\EntityFramework.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\obj\Debug\Entity_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\obj\Debug\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Entity_Layer\obj\Debug\Entity_Layer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57198098-7C41-4842-BF46-6442534A6266}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Domain_Layer</RootNamespace>
+    <AssemblyName>Domain_Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converters\DGeneroConverter.cs" />
+    <Compile Include="Converters\DJuegoConverter.cs" />
+    <Compile Include="Converters\DJuegoGeneroConverter.cs" />
+    <Compile Include="Converters\DPackConverter.cs" />
+    <Compile Include="Converters\DPackDetalleConverter.cs" />
+    <Compile Include="Converters\DUsuarioConverter.cs" />
+    <Compile Include="Dtos\DGeneroDto.cs" />
+    <Compile Include="Dtos\DJuegoDto.cs" />
+    <Compile Include="Dtos\DJuegoGeneroDto.cs" />
+    <Compile Include="Dtos\DPackDetalleDto.cs" />
+    <Compile Include="Dtos\DPackDto.cs" />
+    <Compile Include="Dtos\DUsuarioDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\DGeneroQuery.cs" />
+    <Compile Include="Queries\DJuegoGeneroQuery.cs" />
+    <Compile Include="Queries\DJuegoQuery.cs" />
+    <Compile Include="Queries\DPackDetalleQuery.cs" />
+    <Compile Include="Queries\DPackQuery.cs" />
+    <Compile Include="Queries\DQuerys.cs" />
+    <Compile Include="Queries\DUsuarioQuery.cs" />
+    <Compile Include="Queries\IDGeneroQuery.cs" />
+    <Compile Include="Queries\IDJuegoGeneroQuery.cs" />
+    <Compile Include="Queries\IDJuegoQuery.cs" />
+    <Compile Include="Queries\IDPackDetalleQuery.cs" />
+    <Compile Include="Queries\IDPackQuery.cs" />
+    <Compile Include="Queries\IDUsuarioQuery.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity_Layer\Entity_Layer.csproj">
+      <Project>{6b8cf767-b85f-4fbd-a38e-a3a62910e725}</Project>
+      <Name>Entity_Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

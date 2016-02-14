@@ -1,0 +1,70 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="Absolute-Center is-Responsive">
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+                <h3>GENEROS DE JUEGOS</h3>
+                <table class="table" style="width:500px">
+                    <tbody>
+                        <tr>
+                            <td>Id</td>
+                            <td><input type="text" required data-ng-model="dto.Id" /></td>
+                        </tr>
+                        <tr>
+                            <td>Genero</td>
+                            <td>
+                                @*<input type="text" data-ng-model="genlist" />*@
+                                <select class="form-control" ng-options="item as item.Nombre for item in genlist"  ng-model="selectedGenero" ng-change="updateGenero()">
+                                    @*<option ng-repeat="item in genlist" ng-value="item.Id">{{item.Nombre}}</option>*@
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Juego</td>
+                            <td>
+                                <select class="form-control" ng-options="item as item.Nombre for item in juelist" ng-model="selectedJuego" ng-change="updateJuego()"></select>
+                                    @*<select class="form-control">
+                                        <option ng-repeat="item in juelist" ng-value="item.Id">{{item.Nombre}}</option>
+                                    </select>*@
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" data-ng-click="save()" value="Nuevo" />
+                                &nbsp;&nbsp;
+                                <input type="button" data-ng-click="update()" value="Modificar" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div style="text-align:center; width:550px">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Id Juego</th>
+                                <th>Nombre Juego</th>
+                                <th>Precio Juego</th>
+                                <th>Id Genero</th>
+                                <th>Genero</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in jugelist">
+                                <td> {{item.Id}} </td>
+                                <td> {{item.IdJuego}} </td>
+                                <td> {{item.NombreJuego}} </td>
+                                <td> {{item.PrecioJuego}} </td>
+                                <td> {{item.IdGenero}} </td>
+                                <td> {{item.NombreGenero}} </td>
+                                <td><input type="button" data-ng-click="edit(item)" value="Modificar" /></td>
+                                <td><input type="button" data-ng-click="delete(item)" value="Eliminar" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

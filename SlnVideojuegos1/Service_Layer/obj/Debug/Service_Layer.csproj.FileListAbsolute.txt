@@ -1,0 +1,6 @@
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\bin\Service_Layer.dll.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\bin\Service_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\bin\Service_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\obj\Debug\Service_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\obj\Debug\Service_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\Service_Layer\obj\Debug\Service_Layer.csprojResolveAssemblyReference.cache

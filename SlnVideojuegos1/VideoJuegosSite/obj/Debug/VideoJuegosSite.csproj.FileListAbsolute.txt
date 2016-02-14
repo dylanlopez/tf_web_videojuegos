@@ -1,0 +1,146 @@
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\csc.exe
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\System.Collections.Immutable.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\System.Reflection.Metadata.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\vbc.exe
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\VBCSCompiler.exe
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\VBCSCompiler.exe.config
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.dll.config
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Antlr3.Runtime.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Domain_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.SqlServer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Google.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Web.Infrastructure.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Newtonsoft.Json.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Owin.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Helpers.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Mvc.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Optimization.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Razor.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Deployment.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Razor.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\WebGrease.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Entity_Layer.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Domain_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Helpers.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Mvc.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Optimization.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Razor.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Deployment.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Razor.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Antlr3.Runtime.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Newtonsoft.Json.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.SqlServer.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Google.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Entity_Layer.pdb
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.csprojResolveAssemblyReference.cache
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.dll
+D:\CURSOS\NET 4.5.1 WEB APPLICATION DEVELOPER 2013\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\csc.exe
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\System.Collections.Immutable.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\System.Reflection.Metadata.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\vbc.exe
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\VBCSCompiler.exe
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\roslyn\VBCSCompiler.exe.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.dll.config
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\VideoJuegosSite.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Antlr3.Runtime.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Domain_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.SqlServer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Google.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Web.Infrastructure.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Newtonsoft.Json.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Owin.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Helpers.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Mvc.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Optimization.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Razor.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Deployment.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Razor.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\WebGrease.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Entity_Layer.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Domain_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Helpers.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Mvc.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Optimization.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.Razor.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Deployment.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\System.Web.WebPages.Razor.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Antlr3.Runtime.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Newtonsoft.Json.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\EntityFramework.SqlServer.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Google.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\bin\Entity_Layer.pdb
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.csprojResolveAssemblyReference.cache
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.dll
+H:\estudio\TRABAJO_FINAL\SlnVideojuegos1\VideoJuegosSite\obj\Debug\VideoJuegosSite.pdb

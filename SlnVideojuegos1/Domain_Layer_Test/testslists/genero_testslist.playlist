@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="Domain_Layer_Test.TestDGeneroQuery.InsertErrorSinNombre" /><Add Test="Domain_Layer_Test.TestDGeneroQuery.InsertErrorMismoId" /><Add Test="Domain_Layer_Test.TestDGeneroQuery.InsertOk" /><Add Test="Domain_Layer_Test.TestDGeneroQuery.FindErrorSinParametro" /><Add Test="Domain_Layer_Test.TestDGeneroQuery.FindOk" /></Playlist>

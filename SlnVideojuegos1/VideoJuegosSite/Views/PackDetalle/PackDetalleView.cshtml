@@ -1,0 +1,54 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="Absolute-Center is-Responsive">
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+                <h3>PACK</h3>
+                <table class="table" style="width:500px">
+                    <tbody>
+                        <tr>
+                            <td>Id</td>
+                            <td><input type="text" required data-ng-model="dto.Id" /></td>
+                        </tr>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" required data-ng-model="dto.Nombre" /></td>
+                        </tr>
+                        <tr>
+                            <td>Descripcion</td>
+                            <td><input type="text" required data-ng-model="dto.Descripcion" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" data-ng-click="save()" value="Nuevo" />
+                                &nbsp;&nbsp;
+                                <input type="button" data-ng-click="update()" value="Modificar" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div style="text-align:center; width:550px">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Descripcion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in genlist">
+                                <td> {{item.Id}} </td>
+                                <td> {{item.Nombre}} </td>
+                                <td> {{item.Descripcion}} </td>
+                                <td><input type="button" data-ng-click="edit(item)" value="Modificar" /></td>
+                                <td><input type="button" data-ng-click="delete(item)" value="Eliminar" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

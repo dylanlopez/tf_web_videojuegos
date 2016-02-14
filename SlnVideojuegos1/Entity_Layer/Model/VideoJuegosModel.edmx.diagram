@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0316c468a65044be8c8e4e50f0064ce1" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.GENERO" Width="1.5" PointX="0.75" PointY="7.25" />
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.JUEGO" Width="1.5" PointX="0.75" PointY="3.25" />
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.JUEGO_GENERO" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.PACK" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.PACK_DETALLE" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="DB_VIDEOJUEGOSModel.USUARIO" Width="1.5" PointX="5.75" PointY="2.125" />
+        <AssociationConnector Association="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_GENERO" />
+        <AssociationConnector Association="DB_VIDEOJUEGOSModel.FK_JUEGO_GENERO_JUEGO" />
+        <AssociationConnector Association="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_JUEGO" />
+        <AssociationConnector Association="DB_VIDEOJUEGOSModel.FK_PACK_DETALLE_PACK" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

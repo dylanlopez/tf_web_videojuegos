@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_VIDEOJUEGOSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GENERO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="JUEGO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ANHO" Type="int" Nullable="false" />
+    <Property Name="FECHA_LANZAMIENTO" Type="date" Nullable="false" />
+    <Property Name="ESTUDIO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PRECIO" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="TAGS" Type="varchar" MaxLength="30" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="JUEGO_GENERO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_JUEGO" Type="int" Nullable="false" />
+    <Property Name="ID_GENERO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PACK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PRECIO" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PACK_DETALLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_PACK" Type="int" Nullable="false" />
+    <Property Name="ID_JUEGO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PASSWORD" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ACTIVO" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_JUEGO_GENERO_GENERO">
+    <End Role="GENERO" Type="Self.GENERO" Multiplicity="1" />
+    <End Role="JUEGO_GENERO" Type="Self.JUEGO_GENERO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GENERO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="JUEGO_GENERO">
+        <PropertyRef Name="ID_GENERO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JUEGO_GENERO_JUEGO">
+    <End Role="JUEGO" Type="Self.JUEGO" Multiplicity="1" />
+    <End Role="JUEGO_GENERO" Type="Self.JUEGO_GENERO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JUEGO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="JUEGO_GENERO">
+        <PropertyRef Name="ID_JUEGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PACK_DETALLE_JUEGO">
+    <End Role="JUEGO" Type="Self.JUEGO" Multiplicity="1" />
+    <End Role="PACK_DETALLE" Type="Self.PACK_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JUEGO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PACK_DETALLE">
+        <PropertyRef Name="ID_JUEGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PACK_DETALLE_PACK">
+    <End Role="PACK" Type="Self.PACK" Multiplicity="1" />
+    <End Role="PACK_DETALLE" Type="Self.PACK_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PACK">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PACK_DETALLE">
+        <PropertyRef Name="ID_PACK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_VIDEOJUEGOSModelStoreContainer">
+    <EntitySet Name="GENERO" EntityType="Self.GENERO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JUEGO" EntityType="Self.JUEGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JUEGO_GENERO" EntityType="Self.JUEGO_GENERO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PACK" EntityType="Self.PACK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PACK_DETALLE" EntityType="Self.PACK_DETALLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_JUEGO_GENERO_GENERO" Association="Self.FK_JUEGO_GENERO_GENERO">
+      <End Role="GENERO" EntitySet="GENERO" />
+      <End Role="JUEGO_GENERO" EntitySet="JUEGO_GENERO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JUEGO_GENERO_JUEGO" Association="Self.FK_JUEGO_GENERO_JUEGO">
+      <End Role="JUEGO" EntitySet="JUEGO" />
+      <End Role="JUEGO_GENERO" EntitySet="JUEGO_GENERO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PACK_DETALLE_JUEGO" Association="Self.FK_PACK_DETALLE_JUEGO">
+      <End Role="JUEGO" EntitySet="JUEGO" />
+      <End Role="PACK_DETALLE" EntitySet="PACK_DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PACK_DETALLE_PACK" Association="Self.FK_PACK_DETALLE_PACK">
+      <End Role="PACK" EntitySet="PACK" />
+      <End Role="PACK_DETALLE" EntitySet="PACK_DETALLE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
